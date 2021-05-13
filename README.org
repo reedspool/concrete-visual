@@ -1,0 +1,31 @@
+#+TITLE: Concrete Visual Environment
+
+Visual programming and step debugging environment for the Concrete Programming language.
+
+* Technologies
+:PROPERTIES:
+:CREATED:  [2021-02-15 Mon 16:05]
+:END:
+
+- Next.js
+- React
+- XState
+
+* Installation
+
+Tests in this repo rely my package =xstate-jest-tools= which I have not yet published to NPM.
+
+=npm update= unfortunately does not work with github-installed modules. So, to install and to update, call this:
+
+If you are using Emacs, you can just hit =C-c C-c= with your cursor in the following block.
+
+TRYING THIS too
+#+begin_src sh
+npm install --save next-transpile-modules
+#+end_src
+
+#+begin_src sh :tangle no :results silent raw
+npm install -D https://github.com/reedspool/xstate-jest-tools \
+    https://github.com/reedspool/concrete-parser \
+    https://github.com/reedspool/inverted-promise
+#+end_src

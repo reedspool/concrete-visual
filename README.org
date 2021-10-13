@@ -27,5 +27,6 @@ npm install --save next-transpile-modules
 #+begin_src sh :tangle no :results silent raw
 npm install -D https://github.com/reedspool/xstate-jest-tools \
     https://github.com/reedspool/concrete-parser \
+    https://github.com/reedspool/concrete-interpreter \
     https://github.com/reedspool/inverted-promise
 #+end_src
